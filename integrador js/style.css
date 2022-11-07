@@ -1,0 +1,73 @@
+
+.navbar{
+    background-color: #171819;
+}
+
+footer{
+    background-color: #41739c;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul li{
+    padding: 1 rem;
+    text-align: center;
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.sector  {
+    padding: 2rem;
+}
+.sector  .fila {
+    max-width: 800px;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+.sector .fila .tarjeta{
+    text-align: center;
+    padding: 1rem;
+    margin: 0 8px;
+}
+.sector .fila .estudiante{
+    border: 1px solid #16466d;
+}
+.sector .fila .trainee{
+    border: 1px solid #1d8574;
+}
+.sector  .fila .junior{
+    border: 1px solid #cdba4e;
+}
+.sector   .fila-form{
+    max-width: 800px;
+    margin: auto;
+}
+.sector   .fila-form .form-control{
+    margin: .5rem 0;
+}
+.sector   .fila-form .total p{
+    background-color: #0a39608e;
+    padding: .5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #0e4878;
+    margin: 1.5rem 0;
+}
+.sector  form button{
+background-color: rgb(17, 86, 9);
+color: white;
+border: 0;
+display: block;
+width: 100%;
+padding-bottom: 0.5rem;
+padding-top: 0.5rem;
+border-radius: 5px;
+
+}
